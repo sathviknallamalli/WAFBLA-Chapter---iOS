@@ -3,19 +3,62 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		690D927126069EB800044C24 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D927026069EB800044C24 /* CreateAccountViewController.swift */; };
 		6915D86626056A76005AD817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6915D86526056A76005AD817 /* AppDelegate.swift */; };
 		6915D86826056A76005AD817 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6915D86726056A76005AD817 /* SceneDelegate.swift */; };
 		6915D86A26056A76005AD817 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6915D86926056A76005AD817 /* ViewController.swift */; };
 		6915D86D26056A76005AD817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6915D86B26056A76005AD817 /* Main.storyboard */; };
 		6915D86F26056A77005AD817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6915D86E26056A77005AD817 /* Assets.xcassets */; };
 		6915D87226056A77005AD817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6915D87026056A77005AD817 /* LaunchScreen.storyboard */; };
+		6915D87B26056A84005AD817 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6915D87A26056A84005AD817 /* GoogleService-Info.plist */; };
+		697D465626092A0000DF0BB0 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D465526092A0000DF0BB0 /* RegisterViewController.swift */; };
+		697D465926092BE900DF0BB0 /* RoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D465826092BE900DF0BB0 /* RoleViewController.swift */; };
+		697D465C26092DD700DF0BB0 /* LastStepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D465B26092DD700DF0BB0 /* LastStepViewController.swift */; };
+		697D465F26092F0400DF0BB0 /* AllDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D465E26092F0400DF0BB0 /* AllDoneViewController.swift */; };
+		697D46622609301900DF0BB0 /* AdviserAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D46612609301900DF0BB0 /* AdviserAccountViewController.swift */; };
+		697D4720260A7F0C00DF0BB0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 697D471F260A7F0C00DF0BB0 /* SWRevealViewController.m */; };
+		697D4723260A80D000DF0BB0 /* GeneralInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D4722260A80D000DF0BB0 /* GeneralInfoViewController.swift */; };
+		697D4726260A8CF300DF0BB0 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D4725260A8CF300DF0BB0 /* UpdateViewController.swift */; };
+		697D472F260A9DC200DF0BB0 /* Update.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D472E260A9DC200DF0BB0 /* Update.swift */; };
+		697D4734260AA12B00DF0BB0 /* UpdateDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D4733260AA12B00DF0BB0 /* UpdateDetails.swift */; };
+		697D4737260AB2C900DF0BB0 /* CompEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D4736260AB2C900DF0BB0 /* CompEventTableViewCell.swift */; };
+		697D473A260AB34B00DF0BB0 /* CompEventDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D4739260AB34B00DF0BB0 /* CompEventDetails.swift */; };
+		697D473D260AB39D00DF0BB0 /* CompEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D473C260AB39D00DF0BB0 /* CompEventViewController.swift */; };
+		697D4743260B0DC200DF0BB0 /* DrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D4742260B0DC200DF0BB0 /* DrawerController.swift */; };
+		697D4746260B0F5500DF0BB0 /* DrawerItemDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D4745260B0F5500DF0BB0 /* DrawerItemDetails.swift */; };
+		697D4749260B0FAB00DF0BB0 /* DrawerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D4748260B0FAB00DF0BB0 /* DrawerItem.swift */; };
+		697D474C260B1BC400DF0BB0 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D474B260B1BC400DF0BB0 /* HeaderCell.swift */; };
+		697D474F260BAB4500DF0BB0 /* HeaderDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D474E260BAB4500DF0BB0 /* HeaderDetails.swift */; };
+		697D475D260BDE7600DF0BB0 /* NotificationDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D475C260BDE7600DF0BB0 /* NotificationDetails.swift */; };
+		697D4760260BDEBB00DF0BB0 /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D475F260BDEBB00DF0BB0 /* NotificationTableViewCell.swift */; };
+		697D4763260BDF8200DF0BB0 /* NotificationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D4762260BDF8200DF0BB0 /* NotificationTableViewController.swift */; };
+		697D4766260BFF2600DF0BB0 /* MeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D4765260BFF2600DF0BB0 /* MeetingViewController.swift */; };
+		697D4769260C13B100DF0BB0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D4768260C13B100DF0BB0 /* SettingsViewController.swift */; };
+		697D476C260C1BC100DF0BB0 /* StartMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D476B260C1BC100DF0BB0 /* StartMeetingViewController.swift */; };
+		697D476F260D13FA00DF0BB0 /* MassMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D476E260D13FA00DF0BB0 /* MassMessageViewController.swift */; };
+		697D4772260D273900DF0BB0 /* MeetingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D4771260D273900DF0BB0 /* MeetingCell.swift */; };
+		697D4775260D27AB00DF0BB0 /* PastMeetingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D4774260D27AB00DF0BB0 /* PastMeetingsViewController.swift */; };
+		697D4778260D435900DF0BB0 /* PastMeeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D4777260D435900DF0BB0 /* PastMeeting.swift */; };
+		697D477B260D54FA00DF0BB0 /* ChooseEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D477A260D54FA00DF0BB0 /* ChooseEventViewController.swift */; };
+		697D477E260D58A300DF0BB0 /* ChapterSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697D477D260D58A300DF0BB0 /* ChapterSettingsViewController.swift */; };
+		698AE5322606965B00A0BC66 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 698AE5312606965B00A0BC66 /* LoginViewController.swift */; };
+		69C7367B261135950097E01E /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C7367A261135950097E01E /* StatsViewController.swift */; };
+		69C7367E26113CB00097E01E /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C7367D26113CB00097E01E /* PrivacyPolicyViewController.swift */; };
+		69C7368326124F3F0097E01E /* UpdateSelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C7368226124F3E0097E01E /* UpdateSelectedViewController.swift */; };
+		69C73688261263C70097E01E /* NotificationSelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C73687261263C70097E01E /* NotificationSelectedViewController.swift */; };
+		69C7368B261266380097E01E /* CompEventSelectedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C7368A261266380097E01E /* CompEventSelectedViewController.swift */; };
+		69F6AA7B2607D9E80067A640 /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F6AA7A2607D9E80067A640 /* JoinViewController.swift */; };
+		69F6AA7E260813CD0067A640 /* UserRoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69F6AA7D260813CD0067A640 /* UserRoleViewController.swift */; };
+		A67F985EE02289CF0FD523A6 /* Pods_WAFBLA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D64F29A680BC3756BAD9B75 /* Pods_WAFBLA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32425061C59C75F81A2530FD /* Pods-WAFBLA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAFBLA.release.xcconfig"; path = "Target Support Files/Pods-WAFBLA/Pods-WAFBLA.release.xcconfig"; sourceTree = "<group>"; };
+		690D927026069EB800044C24 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		6915D86226056A76005AD817 /* WAFBLA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WAFBLA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6915D86526056A76005AD817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6915D86726056A76005AD817 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +67,49 @@
 		6915D86E26056A77005AD817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6915D87126056A77005AD817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6915D87326056A77005AD817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6915D87A26056A84005AD817 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		697D465526092A0000DF0BB0 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		697D465826092BE900DF0BB0 /* RoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleViewController.swift; sourceTree = "<group>"; };
+		697D465B26092DD700DF0BB0 /* LastStepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastStepViewController.swift; sourceTree = "<group>"; };
+		697D465E26092F0400DF0BB0 /* AllDoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllDoneViewController.swift; sourceTree = "<group>"; };
+		697D46612609301900DF0BB0 /* AdviserAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviserAccountViewController.swift; sourceTree = "<group>"; };
+		697D471D260A7F0B00DF0BB0 /* WAFBLA-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WAFBLA-Bridging-Header.h"; sourceTree = "<group>"; };
+		697D471E260A7F0C00DF0BB0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
+		697D471F260A7F0C00DF0BB0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
+		697D4722260A80D000DF0BB0 /* GeneralInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralInfoViewController.swift; sourceTree = "<group>"; };
+		697D4725260A8CF300DF0BB0 /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
+		697D472E260A9DC200DF0BB0 /* Update.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Update.swift; sourceTree = "<group>"; };
+		697D4733260AA12B00DF0BB0 /* UpdateDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetails.swift; sourceTree = "<group>"; };
+		697D4736260AB2C900DF0BB0 /* CompEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompEventTableViewCell.swift; sourceTree = "<group>"; };
+		697D4739260AB34B00DF0BB0 /* CompEventDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompEventDetails.swift; sourceTree = "<group>"; };
+		697D473C260AB39D00DF0BB0 /* CompEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompEventViewController.swift; sourceTree = "<group>"; };
+		697D4742260B0DC200DF0BB0 /* DrawerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerController.swift; sourceTree = "<group>"; };
+		697D4745260B0F5500DF0BB0 /* DrawerItemDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerItemDetails.swift; sourceTree = "<group>"; };
+		697D4748260B0FAB00DF0BB0 /* DrawerItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerItem.swift; sourceTree = "<group>"; };
+		697D474B260B1BC400DF0BB0 /* HeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		697D474E260BAB4500DF0BB0 /* HeaderDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetails.swift; sourceTree = "<group>"; };
+		697D475C260BDE7600DF0BB0 /* NotificationDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDetails.swift; sourceTree = "<group>"; };
+		697D475F260BDEBB00DF0BB0 /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		697D4762260BDF8200DF0BB0 /* NotificationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableViewController.swift; sourceTree = "<group>"; };
+		697D4765260BFF2600DF0BB0 /* MeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingViewController.swift; sourceTree = "<group>"; };
+		697D4768260C13B100DF0BB0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		697D476B260C1BC100DF0BB0 /* StartMeetingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMeetingViewController.swift; sourceTree = "<group>"; };
+		697D476E260D13FA00DF0BB0 /* MassMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MassMessageViewController.swift; sourceTree = "<group>"; };
+		697D4771260D273900DF0BB0 /* MeetingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingCell.swift; sourceTree = "<group>"; };
+		697D4774260D27AB00DF0BB0 /* PastMeetingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastMeetingsViewController.swift; sourceTree = "<group>"; };
+		697D4777260D435900DF0BB0 /* PastMeeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastMeeting.swift; sourceTree = "<group>"; };
+		697D477A260D54FA00DF0BB0 /* ChooseEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseEventViewController.swift; sourceTree = "<group>"; };
+		697D477D260D58A300DF0BB0 /* ChapterSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterSettingsViewController.swift; sourceTree = "<group>"; };
+		698AE5312606965B00A0BC66 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		69C7367A261135950097E01E /* StatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		69C7367D26113CB00097E01E /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		69C7368226124F3E0097E01E /* UpdateSelectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateSelectedViewController.swift; sourceTree = "<group>"; };
+		69C73687261263C70097E01E /* NotificationSelectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationSelectedViewController.swift; sourceTree = "<group>"; };
+		69C7368A261266380097E01E /* CompEventSelectedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompEventSelectedViewController.swift; sourceTree = "<group>"; };
+		69F6AA7A2607D9E80067A640 /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
+		69F6AA7D260813CD0067A640 /* UserRoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRoleViewController.swift; sourceTree = "<group>"; };
+		6D64F29A680BC3756BAD9B75 /* Pods_WAFBLA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WAFBLA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5BC8B310006C3683A13F94 /* Pods-WAFBLA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAFBLA.debug.xcconfig"; path = "Target Support Files/Pods-WAFBLA/Pods-WAFBLA.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +117,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A67F985EE02289CF0FD523A6 /* Pods_WAFBLA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A56442FB82BC2B4A9F55FCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A5BC8B310006C3683A13F94 /* Pods-WAFBLA.debug.xcconfig */,
+				32425061C59C75F81A2530FD /* Pods-WAFBLA.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6915D85926056A76005AD817 = {
 			isa = PBXGroup;
 			children = (
 				6915D86426056A76005AD817 /* WAFBLA */,
 				6915D86326056A76005AD817 /* Products */,
+				2A56442FB82BC2B4A9F55FCB /* Pods */,
+				8585528B44B974691ADEA443 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +154,73 @@
 		6915D86426056A76005AD817 /* WAFBLA */ = {
 			isa = PBXGroup;
 			children = (
+				697D471C260A7EE500DF0BB0 /* SWRevealViewController */,
+				6915D87A26056A84005AD817 /* GoogleService-Info.plist */,
 				6915D86526056A76005AD817 /* AppDelegate.swift */,
 				6915D86726056A76005AD817 /* SceneDelegate.swift */,
 				6915D86926056A76005AD817 /* ViewController.swift */,
 				6915D86B26056A76005AD817 /* Main.storyboard */,
+				69C73687261263C70097E01E /* NotificationSelectedViewController.swift */,
+				69C7368226124F3E0097E01E /* UpdateSelectedViewController.swift */,
+				69C7367D26113CB00097E01E /* PrivacyPolicyViewController.swift */,
+				69C7367A261135950097E01E /* StatsViewController.swift */,
+				697D477D260D58A300DF0BB0 /* ChapterSettingsViewController.swift */,
+				697D477A260D54FA00DF0BB0 /* ChooseEventViewController.swift */,
+				697D4774260D27AB00DF0BB0 /* PastMeetingsViewController.swift */,
+				697D4771260D273900DF0BB0 /* MeetingCell.swift */,
+				697D476E260D13FA00DF0BB0 /* MassMessageViewController.swift */,
+				697D476B260C1BC100DF0BB0 /* StartMeetingViewController.swift */,
+				697D4768260C13B100DF0BB0 /* SettingsViewController.swift */,
+				697D4765260BFF2600DF0BB0 /* MeetingViewController.swift */,
+				697D4742260B0DC200DF0BB0 /* DrawerController.swift */,
+				697D474E260BAB4500DF0BB0 /* HeaderDetails.swift */,
+				697D473C260AB39D00DF0BB0 /* CompEventViewController.swift */,
+				69C7368A261266380097E01E /* CompEventSelectedViewController.swift */,
+				697D4762260BDF8200DF0BB0 /* NotificationTableViewController.swift */,
+				697D472E260A9DC200DF0BB0 /* Update.swift */,
+				697D4748260B0FAB00DF0BB0 /* DrawerItem.swift */,
+				697D474B260B1BC400DF0BB0 /* HeaderCell.swift */,
+				697D4736260AB2C900DF0BB0 /* CompEventTableViewCell.swift */,
+				697D475F260BDEBB00DF0BB0 /* NotificationTableViewCell.swift */,
+				697D4725260A8CF300DF0BB0 /* UpdateViewController.swift */,
+				697D4733260AA12B00DF0BB0 /* UpdateDetails.swift */,
+				697D4745260B0F5500DF0BB0 /* DrawerItemDetails.swift */,
+				697D4777260D435900DF0BB0 /* PastMeeting.swift */,
+				697D4739260AB34B00DF0BB0 /* CompEventDetails.swift */,
+				697D475C260BDE7600DF0BB0 /* NotificationDetails.swift */,
+				697D4722260A80D000DF0BB0 /* GeneralInfoViewController.swift */,
+				697D46612609301900DF0BB0 /* AdviserAccountViewController.swift */,
+				697D465E26092F0400DF0BB0 /* AllDoneViewController.swift */,
+				697D465B26092DD700DF0BB0 /* LastStepViewController.swift */,
+				697D465826092BE900DF0BB0 /* RoleViewController.swift */,
+				697D465526092A0000DF0BB0 /* RegisterViewController.swift */,
+				69F6AA7A2607D9E80067A640 /* JoinViewController.swift */,
+				69F6AA7D260813CD0067A640 /* UserRoleViewController.swift */,
+				698AE5312606965B00A0BC66 /* LoginViewController.swift */,
+				690D927026069EB800044C24 /* CreateAccountViewController.swift */,
 				6915D86E26056A77005AD817 /* Assets.xcassets */,
 				6915D87026056A77005AD817 /* LaunchScreen.storyboard */,
 				6915D87326056A77005AD817 /* Info.plist */,
 			);
 			path = WAFBLA;
+			sourceTree = "<group>";
+		};
+		697D471C260A7EE500DF0BB0 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				697D471E260A7F0C00DF0BB0 /* SWRevealViewController.h */,
+				697D471F260A7F0C00DF0BB0 /* SWRevealViewController.m */,
+				697D471D260A7F0B00DF0BB0 /* WAFBLA-Bridging-Header.h */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		8585528B44B974691ADEA443 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D64F29A680BC3756BAD9B75 /* Pods_WAFBLA.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6915D87626056A77005AD817 /* Build configuration list for PBXNativeTarget "WAFBLA" */;
 			buildPhases = (
+				B03ECC3353E70ABAA8009F80 /* [CP] Check Pods Manifest.lock */,
 				6915D85E26056A76005AD817 /* Sources */,
 				6915D85F26056A76005AD817 /* Frameworks */,
 				6915D86026056A76005AD817 /* Resources */,
+				022A240DF83F044098BF2AC3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -98,6 +256,7 @@
 				TargetAttributes = {
 					6915D86126056A76005AD817 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -125,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6915D87226056A77005AD817 /* LaunchScreen.storyboard in Resources */,
+				6915D87B26056A84005AD817 /* GoogleService-Info.plist in Resources */,
 				6915D86F26056A77005AD817 /* Assets.xcassets in Resources */,
 				6915D86D26056A76005AD817 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +292,95 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		022A240DF83F044098BF2AC3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WAFBLA/Pods-WAFBLA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WAFBLA/Pods-WAFBLA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WAFBLA/Pods-WAFBLA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B03ECC3353E70ABAA8009F80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WAFBLA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6915D85E26056A76005AD817 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				697D4766260BFF2600DF0BB0 /* MeetingViewController.swift in Sources */,
+				697D4760260BDEBB00DF0BB0 /* NotificationTableViewCell.swift in Sources */,
+				697D474F260BAB4500DF0BB0 /* HeaderDetails.swift in Sources */,
+				69C7368B261266380097E01E /* CompEventSelectedViewController.swift in Sources */,
+				697D4763260BDF8200DF0BB0 /* NotificationTableViewController.swift in Sources */,
+				697D4749260B0FAB00DF0BB0 /* DrawerItem.swift in Sources */,
+				690D927126069EB800044C24 /* CreateAccountViewController.swift in Sources */,
+				698AE5322606965B00A0BC66 /* LoginViewController.swift in Sources */,
 				6915D86A26056A76005AD817 /* ViewController.swift in Sources */,
+				697D474C260B1BC400DF0BB0 /* HeaderCell.swift in Sources */,
+				697D46622609301900DF0BB0 /* AdviserAccountViewController.swift in Sources */,
+				697D4772260D273900DF0BB0 /* MeetingCell.swift in Sources */,
+				697D473D260AB39D00DF0BB0 /* CompEventViewController.swift in Sources */,
+				697D4720260A7F0C00DF0BB0 /* SWRevealViewController.m in Sources */,
+				697D4746260B0F5500DF0BB0 /* DrawerItemDetails.swift in Sources */,
+				697D473A260AB34B00DF0BB0 /* CompEventDetails.swift in Sources */,
+				697D465626092A0000DF0BB0 /* RegisterViewController.swift in Sources */,
+				69C7368326124F3F0097E01E /* UpdateSelectedViewController.swift in Sources */,
 				6915D86626056A76005AD817 /* AppDelegate.swift in Sources */,
+				697D4734260AA12B00DF0BB0 /* UpdateDetails.swift in Sources */,
+				69C73688261263C70097E01E /* NotificationSelectedViewController.swift in Sources */,
+				69F6AA7B2607D9E80067A640 /* JoinViewController.swift in Sources */,
+				697D476F260D13FA00DF0BB0 /* MassMessageViewController.swift in Sources */,
+				697D4737260AB2C900DF0BB0 /* CompEventTableViewCell.swift in Sources */,
+				697D476C260C1BC100DF0BB0 /* StartMeetingViewController.swift in Sources */,
 				6915D86826056A76005AD817 /* SceneDelegate.swift in Sources */,
+				69F6AA7E260813CD0067A640 /* UserRoleViewController.swift in Sources */,
+				697D477E260D58A300DF0BB0 /* ChapterSettingsViewController.swift in Sources */,
+				697D4775260D27AB00DF0BB0 /* PastMeetingsViewController.swift in Sources */,
+				69C7367B261135950097E01E /* StatsViewController.swift in Sources */,
+				697D472F260A9DC200DF0BB0 /* Update.swift in Sources */,
+				697D465C26092DD700DF0BB0 /* LastStepViewController.swift in Sources */,
+				697D4769260C13B100DF0BB0 /* SettingsViewController.swift in Sources */,
+				69C7367E26113CB00097E01E /* PrivacyPolicyViewController.swift in Sources */,
+				697D465F26092F0400DF0BB0 /* AllDoneViewController.swift in Sources */,
+				697D4723260A80D000DF0BB0 /* GeneralInfoViewController.swift in Sources */,
+				697D4778260D435900DF0BB0 /* PastMeeting.swift in Sources */,
+				697D465926092BE900DF0BB0 /* RoleViewController.swift in Sources */,
+				697D477B260D54FA00DF0BB0 /* ChooseEventViewController.swift in Sources */,
+				697D4726260A8CF300DF0BB0 /* UpdateViewController.swift in Sources */,
+				697D4743260B0DC200DF0BB0 /* DrawerController.swift in Sources */,
+				697D475D260BDE7600DF0BB0 /* NotificationDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,10 +524,13 @@
 		};
 		6915D87726056A77005AD817 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A5BC8B310006C3683A13F94 /* Pods-WAFBLA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LKGGF3ZS2;
 				INFOPLIST_FILE = WAFBLA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -294,6 +538,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.apps.WAFBLA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WAFBLA/SWRevealViewController/WAFBLA-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,10 +547,13 @@
 		};
 		6915D87826056A77005AD817 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32425061C59C75F81A2530FD /* Pods-WAFBLA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LKGGF3ZS2;
 				INFOPLIST_FILE = WAFBLA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -312,6 +561,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.apps.WAFBLA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WAFBLA/SWRevealViewController/WAFBLA-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
